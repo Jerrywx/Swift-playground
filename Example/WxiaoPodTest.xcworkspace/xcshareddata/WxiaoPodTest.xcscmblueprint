@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E66840C30FC2415ADA209C14E865ACBD7BFC43B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "41E2976AACE90231788D2FA5485736F3BBE10A9A" : 0,
+    "E66840C30FC2415ADA209C14E865ACBD7BFC43B0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "68E4A045-92EF-47F5-9AD9-184EFE95F303",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "41E2976AACE90231788D2FA5485736F3BBE10A9A" : "WxiaoPodTest\/WxiaoPodTest\/",
+    "E66840C30FC2415ADA209C14E865ACBD7BFC43B0" : "WxiaoPodTest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WxiaoPodTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/WxiaoPodTest.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jerrywx\/WxiaoPodTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41E2976AACE90231788D2FA5485736F3BBE10A9A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jerrywx\/WxiaoPodTest",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E66840C30FC2415ADA209C14E865ACBD7BFC43B0"
+    }
+  ]
+}
