@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - WxiaoPodTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WxiaoPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  WxiaoPodTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  WxiaoPodTest: 5419d79b2185b84408b720ee20c904757593e2da
+
+COCOAPODS: 0.39.0

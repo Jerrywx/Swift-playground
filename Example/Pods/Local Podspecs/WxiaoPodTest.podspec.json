@@ -1,0 +1,22 @@
+{
+  "name": "WxiaoPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of WxiaoPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/WxiaoPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangx": "wangx@imooc.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/WxiaoPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WxiaoPodTest/Classes/**/*"
+}

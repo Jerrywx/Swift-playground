@@ -1,0 +1,6 @@
+framework module WxiaoPodTest {
+  umbrella header "WxiaoPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
