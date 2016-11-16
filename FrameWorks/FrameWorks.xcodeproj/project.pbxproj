@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		E19F55771DDBF50E00A4E1A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F55761DDBF50E00A4E1A8 /* main.m */; };
 		E19F557A1DDBF50E00A4E1A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F55791DDBF50E00A4E1A8 /* AppDelegate.m */; };
-		E19F557D1DDBF50E00A4E1A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F557C1DDBF50E00A4E1A8 /* ViewController.m */; };
 		E19F55801DDBF50E00A4E1A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19F557E1DDBF50E00A4E1A8 /* Main.storyboard */; };
 		E19F55821DDBF50E00A4E1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19F55811DDBF50E00A4E1A8 /* Assets.xcassets */; };
 		E19F55851DDBF50E00A4E1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19F55831DDBF50E00A4E1A8 /* LaunchScreen.storyboard */; };
+		E19F558F1DDBF7D700A4E1A8 /* JRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F558E1DDBF7D700A4E1A8 /* JRMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		E19F55761DDBF50E00A4E1A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E19F55781DDBF50E00A4E1A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E19F55791DDBF50E00A4E1A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E19F557B1DDBF50E00A4E1A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E19F557C1DDBF50E00A4E1A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E19F557F1DDBF50E00A4E1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E19F55811DDBF50E00A4E1A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19F55841DDBF50E00A4E1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E19F55861DDBF50E00A4E1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19F558D1DDBF7D700A4E1A8 /* JRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMainViewController.h; sourceTree = "<group>"; };
+		E19F558E1DDBF7D700A4E1A8 /* JRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,7 @@
 			children = (
 				E19F55781DDBF50E00A4E1A8 /* AppDelegate.h */,
 				E19F55791DDBF50E00A4E1A8 /* AppDelegate.m */,
-				E19F557B1DDBF50E00A4E1A8 /* ViewController.h */,
-				E19F557C1DDBF50E00A4E1A8 /* ViewController.m */,
-				E19F557E1DDBF50E00A4E1A8 /* Main.storyboard */,
-				E19F55811DDBF50E00A4E1A8 /* Assets.xcassets */,
-				E19F55831DDBF50E00A4E1A8 /* LaunchScreen.storyboard */,
-				E19F55861DDBF50E00A4E1A8 /* Info.plist */,
+				E19F558C1DDBF7A100A4E1A8 /* MainClasses */,
 				E19F55751DDBF50E00A4E1A8 /* Supporting Files */,
 			);
 			path = FrameWorks;
@@ -74,9 +69,22 @@
 		E19F55751DDBF50E00A4E1A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E19F557E1DDBF50E00A4E1A8 /* Main.storyboard */,
+				E19F55811DDBF50E00A4E1A8 /* Assets.xcassets */,
+				E19F55831DDBF50E00A4E1A8 /* LaunchScreen.storyboard */,
+				E19F55861DDBF50E00A4E1A8 /* Info.plist */,
 				E19F55761DDBF50E00A4E1A8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E19F558C1DDBF7A100A4E1A8 /* MainClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E19F558D1DDBF7D700A4E1A8 /* JRMainViewController.h */,
+				E19F558E1DDBF7D700A4E1A8 /* JRMainViewController.m */,
+			);
+			path = MainClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +113,7 @@
 		E19F556A1DDBF50E00A4E1A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JR;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ZongHeng;
 				TargetAttributes = {
@@ -150,8 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E19F557D1DDBF50E00A4E1A8 /* ViewController.m in Sources */,
 				E19F557A1DDBF50E00A4E1A8 /* AppDelegate.m in Sources */,
+				E19F558F1DDBF7D700A4E1A8 /* JRMainViewController.m in Sources */,
 				E19F55771DDBF50E00A4E1A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrameWorks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zongheng.FrameWorks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrameWorks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zongheng.FrameWorks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +318,7 @@
 				E19F558B1DDBF50E00A4E1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

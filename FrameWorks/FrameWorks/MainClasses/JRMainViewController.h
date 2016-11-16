@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JRMainViewController.h
 //  FrameWorks
 //
 //  Created by baidu on 16/11/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JRMainViewController : UIViewController
 
 @end
-
