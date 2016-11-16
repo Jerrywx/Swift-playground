@@ -1,9 +1,0 @@
-use_frameworks!
-
-target 'WxiaoPodTest_Example' do
-  pod 'WxiaoPodTest', :path => '../'
-
-  target 'WxiaoPodTest_Tests' do
-        pod 'FBSnapshotTestCase'
-  end
-end
