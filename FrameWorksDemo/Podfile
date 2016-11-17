@@ -6,4 +6,8 @@ target 'FrameWorksDemo' do
  	pod 'FastImageCache'	, '~> 1.5.1'
  	pod 'AFNetworking'		, '~> 3.1.0'
  	pod 'AsyncDisplayKit'	, '~> 1.9.91'
+ 	pod 'DTCoreText'		, '~> 1.6.19'
+ 	pod 'ReactiveCocoa'		, '~> 5.0.0-alpha.2'
+ 	pod 'Spring'			, '~> 1.0.3'
+ 	pod 'ChameleonFramework', '~> 2.1.0'
 end
